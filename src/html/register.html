@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				font-family: "microsoft yahei", arial;
+			}
+			
+			a {
+				text-decoration: none;
+			}
+		</style>
+		<link rel="stylesheet" href="../css/register.css" />
+		<script src="../js/register.js" ></script>
+		<script src="../lib/ajax_JJ.js" ></script>
+	</head>
+
+	<body class="body_register">
+		<div class="header">
+			<div class="log-con">
+				<img src="../images/logo.gif" class="log" />
+				<img src="../images/enter(2)_03.png" />
+			</div>
+		</div>
+		<div class="middle">
+			<div class="font_size">
+				<p>
+					<a class="fs_a1">欢迎注册</a>
+					已有账号?现在去
+					<a href="log.html" class="fs_a2" style="color: #3B87EE;">登录</a>
+				</p>
+			</div>
+			<div class="register_bd">
+				<div class="register_bd_con">
+					<form class="register_bd_form">
+						<label for="s_jh">手机号:</label>
+						<input type="text" value placeholder="建议常用手机号" id="s_jh"> <span class="tip"></span><br/>
+
+						<label for="y_zm">验证码:</label>
+						<input type="text" value placeholder="请输入验证码" id="y_zm"><br/>
+
+						<label for="yzm">验证码:</label>
+						<div id="yzm"></div>
+						<span class="btnrefresh">刷新验证码</span><br/>
+
+						<label for="o1_password">密码:</label>
+						<input type="password" id="o1_password"><br/>
+
+						<label for="o2_password">确认密码:</label>
+						<input type="password" id="o2_password"><br/>
+						<p class="output"></p>
+						<div class="form_1">
+							<input type="checkbox" class="checkbox" checked="checked" />
+							<label>
+	                        	我已经认真阅读并同意
+	                        	<a href="https://www.soolife.cn/about/agreement.html">《如此生活服务协议》</a>
+                       		 </label>
+						</div>
+						<div class="form_1_1" id="btnRegister">
+							立即注册
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="footerdiv">
+			<div class="footer_wrap">
+				<div class="footer_nav">
+					<ul>
+						<li style="width: 285px;">
+							<dl class="footer_nav_first">
+								<dt>新手指南</dt>
+								<dd>
+									<a href="#">免费注册</a>
+								</dd>
+								<dd>
+									<a href="#">搜索商品</a>
+								</dd>
+								<dd>
+									<a href="#">购买评论</a>
+								</dd>
+								<dd>
+									<a href="#">评论晒单</a>
+								</dd>
+							</dl>
+						</li>
+						<li style="width: 182px;">
+							<dl>
+								<dt>配送方式</dt>
+								<dd>
+									<a href="#">配送方式</a>
+								</dd>
+								<dd>
+									<a href="#">配送时间</a>
+								</dd>
+							</dl>
+						</li>
+						<li style="width: 180px;">
+							<dl>
+								<dt>支付方式</dt>
+								<dd>
+									<a href="#">支付方式</a>
+								</dd>
+								<dd>
+									<a href="#">银行卡支付</a>
+								</dd>
+							</dl>
+						</li>
+						<li style="width: 165px;">
+							<dl>
+								<dt>售后服务</dt>
+								<dd>
+									<a href="#">守候政策</a>
+								</dd>
+								<dd>
+									<a href="#">退款说明</a>
+								</dd>
+								<dd>
+									<a href="#">取消订单</a>
+								</dd>
+							</dl>
+						</li>
+						<li style="width: 193px;">
+							<dl>
+								<dt>招商合作</dt>
+							</dl>
+						</li>
+						<li style="width: 160px;">
+							<dl>
+								<dt>购物指南</dt>
+								<dd>
+									<a href="#">星币说明</a>
+								</dd>
+								<dd>
+									<a href="#">交易条款</a>
+								</dd>
+								<dd>
+									<a href="#">购物说明</a>
+								</dd>
+								<dd>
+									<a href="#">注册流程</a>
+								</dd>
+								<dd>
+									<a href="#">常见问题</a>
+								</dd>
+							</dl>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="footer_s">
+				<div class="foot-er">
+					<a class="s1" title="020双线开放">020双线开放</a>
+					<a class="s2" title="免年费返佣金">免年费返佣金</a>
+					<a class="s3" title="仓储物流服务">仓储物流服务</a>
+				</div>
+			</div>
+			<div class="footer">
+				<p>
+					<a href="#">关于我们</a>
+					<a href="#">联系我们</a>
+					<a href="#">品牌介绍</a>
+					<a href="#">商家如驻</a>
+					<a href="#">友情链接</a>
+					<a href="#" class="la">法律声明</a>
+				</p>
+				<p style="font-family: verdana;">
+					@2014-2015
+					<a href="#" class="p_la">如此生活</a>
+					版权所有 卢ICP备11038000号-2
+				</p>
+			</div>
+		</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" href="../css/car.css" />
+		<link rel="stylesheet" href="../css/base.css" />
+		<script src="../lib/jquery-3.2.1.js"></script>
+		<script src="../js/car.js"></script>
+		<script src="../js/conmon1.js"></script>
+	</head>
+
+	<body class="clearfix">
+		<!--头部开始的位置-->
+		<div id="header">
+			<div class="main container clearfix">
+				<div class="leftflo_1">
+					<div class="leftflo">
+						<span class="leftflo_a-1">Hi 欢迎来到如此生活</span>
+						<a href="log.html">登录<span>|</span></a>
+						<a href="register.html">免费注册<span>|</span></a>
+					</div>
+					<div class="weixin"></div>
+					<div class="sina"></div>
+				</div>
+				<div class="rightflo">
+					<ul>
+						<li>我的生活<span>|</span></li>
+						<li>帮助中心<span>|</span></li>
+						<li>商家入住<span>|</span></li>
+						<li>更多导航</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="search_bar clearfix">
+			<div class="container clearfix">
+				<div class="logo_left">
+				</div>
+				<div class="control_left">
+					<div class="form_panel">
+						<input type="text" /><button>搜索</button>
+					</div>
+					<ul>
+						<li>智能干爽纸尿裤</li>
+						<li>空气净化剂</li>
+						<li>南极之都</li>
+						<li>地板清洁</li>
+						<li>紫草膏</li>
+						<li>健身器材</li>
+						<li class="form_panel_last_li">娱乐</li>
+					</ul>
+				</div>
+				<div class="hottline_right">
+				</div>
+			</div>
+		</div>
+		<div class="navbar clearfix">
+			<div class="contegory_left container">
+				<ul class="lists_left">
+					<a href="index.html">
+						<li class="lists_left_li">首页</li>
+					</a>
+					<a href="list.html">
+						<li>列表精品</li>
+					</a>
+					<a href="datelist.html">
+						<li>详情页</li>
+					</a>
+					<a href="log.html">
+						<li>登录</li>
+					</a>
+					<a href="register.html">
+						<li>注册</li>
+					</a>
+				</ul>
+			</div>
+		</div>
+		<div class="qbsp clearfix">
+			<div class="gwc_qbsp container">
+				<h4>全部商品</h4>
+			</div>
+		</div>
+		<!--表格开始的位置-->
+		<table class="datalist container clearfix">
+			<thead>
+				<tr class="tr_thead">
+					<th width="20"><input type="checkbox" id="all" class="all_ok"></th>
+					<th width="100">全选</th>
+					<th>商品信息</th>
+					<th>如此生活（价)</th>
+					<th>星币</th>
+					<th>数量</th>
+					<th>小计（元）</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="tr_tr_1">
+					<td><input type="checkbox" name="check"></td>
+					<td><img src="../images/gwc_js.png" /></td>
+					<td><span style="color: #009CF2;">海南一号</span></td>
+					<td>￥5</td>
+					<td></td>
+					<td>添加数量<input type="number" id="qty" /></td>
+					<td><span style="color: #F6AB00;">0</span><span style="color: red;">+11</span></td>
+					<td><span style="color: red;">￥55</span></td>
+					<td><button class="btnDelete">删除</button></td>
+				</tr>
+				<tr class="tr_tr_2">
+					<td><input type="checkbox" name="check"></td>
+					<td><img src="" id="pr"></img>
+					</td>
+					<td><span id="Bimg"></span></td>
+					<td>￥<span id="item"></span></td>
+
+					<td><span id=""></span></td>
+					<td>添加数量<input type="number" id="num" /></td>
+					<td><span id="outup" style="color: red;"></span></td>
+					<td><span id="zj" style="color: red;"></span></td>
+					<td><button class="btnDelete">删除</button></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="qbsp_js clearfix">
+			<div class="gwc_qbsp_js container">
+				<a href="index.html">
+					<h4>继续购物  </h4></a>
+				<p class="js">已选择 <span style="color: #F6AB00;font-size: 18px;" id="outup_1"></span>件商品 总价（不含运费）：<span style="color: #F6AB00;">￥</span><span id="outup_2" style="color:red;"></span></p>
+				<a href="log.html"><button class="js_qb">去结算</button></a>
+			</div>
+		</div>
+		<!--尾部开始的位置-->
+		<div class="footerdiv">
+			<div class="footer_wrap">
+				<div class="footer_nav">
+					<ul>
+						<li style="width: 285px;">
+							<dl class="footer_nav_first">
+								<dt>新手指南</dt>
+								<dd>
+									<a href="#">免费注册</a>
+								</dd>
+								<dd>
+									<a href="#">搜索商品</a>
+								</dd>
+								<dd>
+									<a href="#">购买评论</a>
+								</dd>
+								<dd>
+									<a href="#">评论晒单</a>
+								</dd>
+							</dl>
+						</li>
+						<li style="width: 182px;">
+							<dl>
+								<dt>配送方式</dt>
+								<dd>
+									<a href="#">配送方式</a>
+								</dd>
+								<dd>
+									<a href="#">配送时间</a>
+								</dd>
+							</dl>
+						</li>
+						<li style="width: 180px;">
+							<dl>
+								<dt>支付方式</dt>
+								<dd>
+									<a href="#">支付方式</a>
+								</dd>
+								<dd>
+									<a href="#">银行卡支付</a>
+								</dd>
+							</dl>
+						</li>
+						<li style="width: 165px;">
+							<dl>
+								<dt>售后服务</dt>
+								<dd>
+									<a href="#">守候政策</a>
+								</dd>
+								<dd>
+									<a href="#">退款说明</a>
+								</dd>
+								<dd>
+									<a href="#">取消订单</a>
+								</dd>
+							</dl>
+						</li>
+						<li style="width: 193px;">
+							<dl>
+								<dt>招商合作</dt>
+							</dl>
+						</li>
+						<li style="width: 160px;">
+							<dl>
+								<dt>购物指南</dt>
+								<dd>
+									<a href="#">星币说明</a>
+								</dd>
+								<dd>
+									<a href="#">交易条款</a>
+								</dd>
+								<dd>
+									<a href="#">购物说明</a>
+								</dd>
+								<dd>
+									<a href="#">注册流程</a>
+								</dd>
+								<dd>
+									<a href="#">常见问题</a>
+								</dd>
+							</dl>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="footer_s">
+				<div class="foot-er">
+					<a class="s1" title="020双线开放">020双线开放</a>
+					<a class="s2" title="免年费返佣金">免年费返佣金</a>
+					<a class="s3" title="仓储物流服务">仓储物流服务</a>
+				</div>
+			</div>
+			<div class="footer clearfix">
+				<p>
+					<a href="#">关于我们</a>
+					<a href="#">联系我们</a>
+					<a href="#">品牌介绍</a>
+					<a href="#">商家如驻</a>
+					<a href="#">友情链接</a>
+					<a href="#" class="la">法律声明</a>
+				</p>
+				<p style="font-family: verdana;">
+					@2014-2015
+					<a href="#" class="p_la">如此生活</a>
+					版权所有 卢ICP备11038000号-2
+				</p>
+			</div>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,317 @@
+ul li {
+    list-style: none;
+}
+
+
+/*把body作为一个大盒子* 里面包括所有的内容*/
+
+.body_register {
+    width: 1263px;
+    height: px;
+}
+
+
+/*头部开始的位置*/
+
+.header {
+    width: 1263px;
+    height: 98px;
+    border-bottom: 2px solid #fe3f71;
+}
+
+.header .log-con {
+    width: 1127px;
+    height: 100px;
+    margin-left: 137px;
+}
+
+.header .log-con .log {
+    width: 200px;
+    height: 60px;
+    margin-top: 24px;
+}
+
+
+/*中间的内容开始的位置*/
+
+.middle {
+    width: 800px;
+    height: 528px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.middle .font_size {
+    width: 300px;
+    padding-left: 50px;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.middle .font_size p {
+    font-size: 10px;
+    color: #4d4d4d;
+}
+
+.middle .font_size p .fs_a1 {
+    width: 96px;
+    height: 30px;
+    color: #4d4d4d;
+    font-size: 24px;
+}
+
+.middle .font_size p .fs_a2 {
+    height: 30px;
+    width: 20px;
+    line-height: 20px;
+    padding-top: 10px;
+    font-size: 10px;
+}
+
+.middle .register_bd {
+    width: 800px;
+    height: 454px;
+    padding: 20px 0;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.middle .register_bd .register_bd_con {
+    width: 800px;
+    height: 418px;
+}
+
+.middle .register_bd .register_bd_con .register_bd_form {
+    width: 500px;
+    height: 418px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.middle .register_bd .register_bd_con .register_bd_form {
+    color: #4d4d4d;
+    font-size: 16px;
+    width: 600px;
+    height: 440px;
+    margin-bottom: 20px;
+    .tip {
+        background-color:white;
+        vertical-align: middle;
+        font-size: 16px;
+    }
+    .output {
+        padding-left: 100px;
+        font-size: 16px;
+        color: red;
+    }
+    .form_1_1 {
+        text-align: center;
+        line-height: 40px;
+        width: 320px;
+        height: 40px;
+        margin: 0 auto;
+        margin-left: 100px;
+        background-color: #FF8DAB;
+    }
+}
+
+.register_bd_form label {
+    margin-bottom: 20px;
+    width: 100px;
+    height: 40px;
+    text-align: right;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.register_bd_form input {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.register_bd_form #yzm {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.register_bd_form span {
+    font-size: 13px;
+    width: 95px;
+    background: #ff8dab;
+    color: white;
+    border: 0;
+    border-radius: 2px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.register_bd_form .form_1 {
+    width: 500px;
+    height: 37px;
+    margin-bottom: 20px;
+}
+
+.register_bd_form .form_1 input {
+    margin-left: 100px;
+    width: 13px;
+    height: 13px;
+}
+
+.register_bd_form .form_1 label {
+    width: 240px;
+    height: 16px;
+    display: inline;
+    font-size: 12px;
+    color: #4d4d4d;
+}
+
+.register_bd_form .form_1 label a {
+    text-decoration: none;
+    color: #37A0DB;
+}
+
+.register_bd_form #ljzc {
+    margin-left: 100px;
+    background: #fe3f71;
+    width: 320px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    border: 0;
+    height: 40px;
+}
+
+
+/*尾部开始的位置*/
+
+.footerdiv {
+    width: 1263px;
+    height: 394px;
+    background-color: white;
+}
+
+.footerdiv .footer_wrap {
+    height: 142px;
+    padding: 40px 0 10px;
+    width: 100%;
+}
+
+.footerdiv .footer_wrap .footer_nav {
+    background: url(../images/footer.png)-500px 0 no-repeat;
+    height: 144px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1200px;
+}
+
+.footerdiv .footer_wrap .footer_nav ul li {
+    float: left;
+}
+
+.footerdiv .footer_wrap .footer_nav .footer_nav_first {
+    padding-left: 98px;
+}
+
+.footerdiv .footer_wrap .footer_nav dl dt {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px 0;
+    line-height: 1.42857142;
+}
+
+.footerdiv .footer_wrap .footer_nav dl dd {
+    color: #999;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.footerdiv .footer_wrap .footer_nav dl dd a {
+    color: #999;
+}
+
+.footerdiv .footer_s {
+    min-width: 1200px;
+    height: 54px;
+    background-color: #3b87ee;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 20px 0 35px;
+}
+
+.footerdiv .footer_s .foot-er {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footerdiv .footer_s .s1 {
+    width: 338px;
+    background-position: 0 1px;
+}
+
+.footerdiv .footer_s a {
+    float: left;
+    height: 46px;
+    background: url(../images/footer.png) no-repeat;
+    text-indent: -100%;
+    overflow: hidden;
+}
+
+.footerdiv .footer_s .s2 {
+    margin-left: 41px;
+    width: 470px;
+    background-position: 0 -44px;
+}
+
+.footerdiv .footer_s .s3 {
+    margin-left: 41px;
+    width: 310px;
+    background-position: 0 -92px;
+}
+
+.footerdiv .footer {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    padding: 5px 0 20px;
+}
+
+.footerdiv .footer p {
+    line-height: 25px;
+    color: #999;
+    font-size: 13px;
+    font-family: "微软雅黑";
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.footerdiv .footer p a {
+    width: 51.55px;
+    height: 16px;
+    color: #999;
+    border-right: solid 1.4px;
+}
+
+.footerdiv .footer p .la {
+    border: none;
+}
+
+.footerdiv .footer p .p_la {
+    border: none;
+}

@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>详情页</title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/datelist.css" />
+		<script src="../js/conmon1.js"></script>
+		<script src="../js/datelist.js"></script>
+		<script src="../lib/ajax_JJ.js"></script>
+	</head>
+
+	<body class="clearfix">
+		<!--头部开始的位置-->
+		<div id="header">
+			<div class="main container clearfix">
+				<div class="leftflo_1">
+					<div class="leftflo">
+						<span class="leftflo_a-1">Hi 欢迎来到如此生活</span>
+						<a href="log.html">登录<span>|</span></a>
+						<a href="register.html">免费注册<span>|</span></a>
+					</div>
+					<div class="weixin"></div>
+					<div class="sina"></div>
+				</div>
+				<div class="rightflo">
+					<ul>
+						<li>我的生活<span>|</span></li>
+						<li>帮助中心<span>|</span></li>
+						<li>商家入住<span>|</span></li>
+						<li>更多导航</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="search_bar clearfix">
+			<div class="container clearfix">
+				<div class="logo_left">
+				</div>
+				<div class="control_left">
+					<div class="form_panel">
+						<input type="text" /><button>搜索</button><button class="btn">搜本店</button>
+					</div>
+					<ul>
+						<li>智能干爽纸尿裤</li>
+						<li>空气净化剂</li>
+						<li>南极之都</li>
+						<li>地板清洁</li>
+						<li>紫草膏</li>
+						<li>健身器材</li>
+						<li class="form_panel_last_li">娱乐</li>
+					</ul>
+				</div>
+				<div class="hottline_right">
+				</div>
+			</div>
+		</div>
+		<div class="header_tu container"></div>
+		<div class="navbar clearfix">
+			<div class="nav container">
+				<div class="contegory_left">
+					<h4>全部商品分类</h4>
+					<div class="contegory_menus">
+						<ul>
+							<li>
+								<a href="log.html" class="contegory_menus_a">女装/男装/内衣/鞋靴</a>
+								<div class="contegory_menus_tjdh">
+									<div class="tags_bd">
+										<h5>女装</h5>
+										<p>
+											<a href="list.html">连衣裙</a>
+											<a href="list.html">半身裙</a>
+											<a href="list.html">女士衬衫</a>
+											<a href="list.html">女士T恤</a>
+											<a href="list.html">雪纺衫</a>
+											<a href="list.html">女士西服</a>
+											<a href="list.html">女士套装</a>
+											<a href="list.html">女士马甲</a>
+											<a href="list.html">打底裤</a>
+											<a href="list.html">女士休闲裤</a>
+											<a href="list.html">女士牛仔裤</a>
+											<a href="list.html">女士羽绒服</a>
+											<a href="list.html">女士大衣</a>
+											<a href="list.html">女士棉衣</a>
+											<a href="list.html">裙装</a>
+											<a href="list.html">女士针织/毛衣</a>
+											<a href="list.html">女士卫衣/帽衫</a>
+											<a href="list.html">女士风衣</a>
+											<a href="list.html">婚纱/礼服/旗袍</a>
+											<a href="list.html">女士皮衣</a>
+											<a href="list.html">皮草</a>
+											<a href="list.html">女士牛仔服</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>男装</h5>
+										<p>
+											<a href="list.html">男士T恤</a>
+											<a href="list.html">男士衬衫</a>
+											<a href="list.html">男士休闲裤</a>
+											<a href="list.html">男士牛仔裤</a>
+											<a href="list.html">男士POLO衫</a>
+											<a href="list.html">男士西服</a>
+											<a href="list.html">男士夹克</a>
+											<a href="list.html">男士风衣</a>
+											<a href="list.html">男士针织/毛衣</a>
+											<a href="list.html">男士卫衣/帽衫</a>
+											<a href="list.html">男士皮衣</a>
+											<a href="list.html">男士套装</a>
+											<a href="list.html">男士牛仔服</a>
+											<a href="list.html">男士马甲</a>
+											<a href="list.html">男士西裤</a>
+											<a href="list.html">男士大衣</a>
+											<a href="list.html">男士棉衣</a>
+											<a href="list.html">男士羽绒服</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>内衣家居服</h5>
+										<p>
+											<a href="list.html">保暖衣裤</a>
+											<a href="list.html">睡衣/家居服</a>
+											<a href="list.html">文胸</a>
+											<a href="list.html">内裤</a>
+											<a href="list.html">塑身美体</a>
+											<a href="list.html">吊带/背心</a>
+											<a href="list.html">抹胸</a>
+											<a href="list.html">男袜/女袜</a>
+											<a href="list.html">连体袜/丝袜</a>
+											<a href="list.html">打底裤袜</a>
+											<a href="list.html">秋衣秋裤</a>
+											<a href="list.html">内衣配件</a>
+											<a href="list.html">情趣内衣</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>女鞋</h5>
+										<p>
+											<a href="list.html">单鞋</a>
+											<a href="list.html">休闲鞋</a>
+											<a href="list.html">靴子</a>
+											<a href="list.html">雪地靴</a>
+											<a href="list.html">居家鞋/室内拖鞋</a>
+											<a href="list.html">凉鞋</a>
+											<a href="list.html">抹胸</a>
+											<a href="list.html">运动鞋</a>
+											<a href="list.html">360跑步鞋</a>
+											<a href="list.html">特步</a>
+											<a href="list.html">贵人鸟</a>
+											<a href="list.html">耐克</a>
+											<a href="list.html">阿迪达斯</a>
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="log.html" class="contegory_menus_a">箱包/皮具/钟表饰品</a>
+								<div class="contegory_menus_tjdh">
+									<div class="tags_bd">
+										<h5>箱包</h5>
+										<p>
+											<a href="list.html">男士T恤</a>
+											<a href="list.html">男士衬衫</a>
+											<a href="list.html">男士休闲裤</a>
+											<a href="list.html">男士牛仔裤</a>
+											<a href="list.html">男士POLO衫</a>
+											<a href="list.html">男士西服</a>
+											<a href="list.html">男士夹克</a>
+											<a href="list.html">男士风衣</a>
+											<a href="list.html">男士针织/毛衣</a>
+											<a href="list.html">男士卫衣/帽衫</a>
+											<a href="list.html">男士皮衣</a>
+											<a href="list.html">男士套装</a>
+											<a href="list.html">男士牛仔服</a>
+											<a href="list.html">男士马甲</a>
+											<a href="list.html">男士西裤</a>
+											<a href="list.html">男士大衣</a>
+											<a href="list.html">男士棉衣</a>
+											<a href="list.html">男士羽绒服</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>皮具</h5>
+										<p>
+											<a href="list.html">保暖衣裤</a>
+											<a href="list.html">睡衣/家居服</a>
+											<a href="list.html">文胸</a>
+											<a href="list.html">内裤</a>
+											<a href="list.html">塑身美体</a>
+											<a href="list.html">吊带/背心</a>
+											<a href="list.html">抹胸</a>
+											<a href="list.html">男袜/女袜</a>
+											<a href="list.html">连体袜/丝袜</a>
+											<a href="list.html">打底裤袜</a>
+											<a href="list.html">秋衣秋裤</a>
+											<a href="list.html">内衣配件</a>
+											<a href="list.html">情趣内衣</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>钟表饰品</h5>
+										<p>
+											<a href="list.html">单鞋</a>
+											<a href="list.html">休闲鞋</a>
+											<a href="list.html">靴子</a>
+											<a href="list.html">雪地靴</a>
+											<a href="list.html">居家鞋/室内拖鞋</a>
+											<a href="list.html">凉鞋</a>
+											<a href="list.html">抹胸</a>
+											<a href="list.html">运动鞋</a>
+											<a href="list.html">360跑步鞋</a>
+											<a href="list.html">特步</a>
+											<a href="list.html">贵人鸟</a>
+											<a href="list.html">耐克</a>
+											<a href="list.html">阿迪达斯</a>
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="log.html" class="contegory_menus_a">运动户外</a>
+								<div class="contegory_menus_tjdh">
+									<div class="tags_bd">
+										<h5>内衣家居服</h5>
+										<p>
+											<a href="list.html">保暖衣裤</a>
+											<a href="list.html">睡衣/家居服</a>
+											<a href="list.html">文胸</a>
+											<a href="list.html">内裤</a>
+											<a href="list.html">塑身美体</a>
+											<a href="list.html">吊带/背心</a>
+											<a href="list.html">抹胸</a>
+											<a href="list.html">男袜/女袜</a>
+											<a href="list.html">连体袜/丝袜</a>
+											<a href="list.html">打底裤袜</a>
+											<a href="list.html">秋衣秋裤</a>
+											<a href="list.html">内衣配件</a>
+											<a href="list.html">情趣内衣</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>女鞋</h5>
+										<p>
+											<a href="list.html">单鞋</a>
+											<a href="list.html">休闲鞋</a>
+											<a href="list.html">靴子</a>
+											<a href="list.html">雪地靴</a>
+											<a href="list.html">居家鞋/室内拖鞋</a>
+											<a href="list.html">凉鞋</a>
+											<a href="list.html">抹胸</a>
+											<a href="list.html">运动鞋</a>
+											<a href="list.html">360跑步鞋</a>
+											<a href="list.html">特步</a>
+											<a href="list.html">贵人鸟</a>
+											<a href="list.html">耐克</a>
+											<a href="list.html">阿迪达斯</a>
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="log.html" class="contegory_menus_a">化妆品/个人护理/洗护</a>
+								<div class="contegory_menus_tjdh">
+									<div class="tags_bd">
+										<h5>化妆品</h5>
+										<p>
+											<a href="list.html">连衣裙</a>
+											<a href="list.html">半身裙</a>
+											<a href="list.html">女士衬衫</a>
+											<a href="list.html">女士T恤</a>
+											<a href="list.html">雪纺衫</a>
+											<a href="list.html">女士西服</a>
+											<a href="list.html">女士套装</a>
+											<a href="list.html">女士马甲</a>
+											<a href="list.html">打底裤</a>
+											<a href="list.html">女士休闲裤</a>
+											<a href="list.html">女士牛仔裤</a>
+											<a href="list.html">女士羽绒服</a>
+											<a href="list.html">女士大衣</a>
+											<a href="list.html">女士棉衣</a>
+											<a href="list.html">裙装</a>
+											<a href="list.html">女士针织/毛衣</a>
+											<a href="list.html">女士卫衣/帽衫</a>
+											<a href="list.html">女士风衣</a>
+											<a href="list.html">婚纱/礼服/旗袍</a>
+											<a href="list.html">女士皮衣</a>
+											<a href="list.html">皮草</a>
+											<a href="list.html">女士牛仔服</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>个人护理</h5>
+										<p>
+											<a href="list.html">男士T恤</a>
+											<a href="list.html">男士衬衫</a>
+											<a href="list.html">男士休闲裤</a>
+											<a href="list.html">男士牛仔裤</a>
+											<a href="list.html">男士POLO衫</a>
+											<a href="list.html">男士西服</a>
+											<a href="list.html">男士夹克</a>
+											<a href="list.html">男士风衣</a>
+											<a href="list.html">男士针织/毛衣</a>
+											<a href="list.html">男士卫衣/帽衫</a>
+											<a href="list.html">男士皮衣</a>
+											<a href="list.html">男士套装</a>
+											<a href="list.html">男士牛仔服</a>
+											<a href="list.html">男士马甲</a>
+											<a href="list.html">男士西裤</a>
+											<a href="list.html">男士大衣</a>
+											<a href="list.html">男士棉衣</a>
+											<a href="list.html">男士羽绒服</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>洗护</h5>
+										<p>
+											<a href="list.html">保暖衣裤</a>
+											<a href="list.html">睡衣/家居服</a>
+											<a href="list.html">文胸</a>
+											<a href="list.html">内裤</a>
+											<a href="list.html">塑身美体</a>
+											<a href="list.html">吊带/背心</a>
+											<a href="list.html">抹胸</a>
+											<a href="list.html">男袜/女袜</a>
+											<a href="list.html">连体袜/丝袜</a>
+											<a href="list.html">打底裤袜</a>
+											<a href="list.html">秋衣秋裤</a>
+											<a href="list.html">内衣配件</a>
+											<a href="list.html">情趣内衣</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>运动家居必备</h5>
+										<p>
+											<a href="list.html">单鞋</a>
+											<a href="list.html">休闲鞋</a>
+											<a href="list.html">靴子</a>
+											<a href="list.html">雪地靴</a>
+											<a href="list.html">居家鞋/室内拖鞋</a>
+											<a href="list.html">凉鞋</a>
+											<a href="list.html">抹胸</a>
+											<a href="list.html">运动鞋</a>
+											<a href="list.html">360跑步鞋</a>
+											<a href="list.html">特步</a>
+											<a href="list.html">贵人鸟</a>
+											<a href="list.html">耐克</a>
+											<a href="list.html">阿迪达斯</a>
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="log.html" class="contegory_menus_a">家居家纺/家装建材</a>
+								<div class="contegory_menus_tjdh">
+									<div class="tags_bd">
+										<h5>女装</h5>
+										<p>
+											<a href="list.html">连衣裙</a>
+											<a href="list.html">半身裙</a>
+											<a href="list.html">女士衬衫</a>
+											<a href="list.html">女士T恤</a>
+											<a href="list.html">雪纺衫</a>
+											<a href="list.html">女士西服</a>
+											<a href="list.html">女士套装</a>
+											<a href="list.html">女士马甲</a>
+											<a href="list.html">打底裤</a>
+											<a href="list.html">女士休闲裤</a>
+											<a href="list.html">女士牛仔裤</a>
+											<a href="list.html">女士羽绒服</a>
+											<a href="list.html">女士大衣</a>
+											<a href="list.html">女士棉衣</a>
+											<a href="list.html">裙装</a>
+											<a href="list.html">女士针织/毛衣</a>
+											<a href="list.html">女士卫衣/帽衫</a>
+											<a href="list.html">女士风衣</a>
+											<a href="list.html">婚纱/礼服/旗袍</a>
+											<a href="list.html">女士皮衣</a>
+											<a href="list.html">皮草</a>
+											<a href="list.html">女士牛仔服</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>男装</h5>
+										<p>
+											<a href="list.html">男士T恤</a>
+											<a href="list.html">男士衬衫</a>
+											<a href="list.html">男士休闲裤</a>
+											<a href="list.html">男士牛仔裤</a>
+											<a href="list.html">男士POLO衫</a>
+											<a href="list.html">男士西服</a>
+											<a href="list.html">男士夹克</a>
+											<a href="list.html">男士风衣</a>
+											<a href="list.html">男士针织/毛衣</a>
+											<a href="list.html">男士卫衣/帽衫</a>
+											<a href="list.html">男士皮衣</a>
+											<a href="list.html">男士套装</a>
+											<a href="list.html">男士牛仔服</a>
+											<a href="list.html">男士马甲</a>
+											<a href="list.html">男士西裤</a>
+											<a href="list.html">男士大衣</a>
+											<a href="list.html">男士棉衣</a>
+											<a href="list.html">男士羽绒服</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>内衣家居服</h5>
+										<p>
+											<a href="list.html">保暖衣裤</a>
+											<a href="list.html">睡衣/家居服</a>
+											<a href="list.html">文胸</a>
+											<a href="list.html">内裤</a>
+											<a href="list.html">塑身美体</a>
+											<a href="list.html">吊带/背心</a>
+											<a href="list.html">抹胸</a>
+											<a href="list.html">男袜/女袜</a>
+											<a href="list.html">连体袜/丝袜</a>
+											<a href="list.html">打底裤袜</a>
+											<a href="list.html">秋衣秋裤</a>
+											<a href="list.html">内衣配件</a>
+											<a href="list.html">情趣内衣</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>女鞋</h5>
+										<p>
+											<a href="list.html">单鞋</a>
+											<a href="list.html">休闲鞋</a>
+											<a href="list.html">靴子</a>
+											<a href="list.html">雪地靴</a>
+											<a href="list.html">居家鞋/室内拖鞋</a>
+											<a href="list.html">凉鞋</a>
+											<a href="list.html">抹胸</a>
+											<a href="list.html">运动鞋</a>
+											<a href="list.html">360跑步鞋</a>
+											<a href="list.html">特步</a>
+											<a href="list.html">贵人鸟</a>
+											<a href="list.html">耐克</a>
+											<a href="list.html">阿迪达斯</a>
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="log.html" class="contegory_menus_a">汽车用品</a>
+								<div class="contegory_menus_tjdh">
+									<div class="tags_bd">
+										<h5>座垫</h5>
+										<p>
+											<a href="list.html">连衣裙</a>
+											<a href="list.html">半身裙</a>
+											<a href="list.html">女士衬衫</a>
+											<a href="list.html">女士T恤</a>
+											<a href="list.html">雪纺衫</a>
+											<a href="list.html">女士西服</a>
+											<a href="list.html">女士套装</a>
+											<a href="list.html">女士马甲</a>
+											<a href="list.html">打底裤</a>
+											<a href="list.html">女士休闲裤</a>
+											<a href="list.html">女士牛仔裤</a>
+											<a href="list.html">女士羽绒服</a>
+											<a href="list.html">女士大衣</a>
+											<a href="list.html">女士棉衣</a>
+											<a href="list.html">裙装</a>
+											<a href="list.html">女士针织/毛衣</a>
+											<a href="list.html">女士卫衣/帽衫</a>
+											<a href="list.html">女士风衣</a>
+											<a href="list.html">婚纱/礼服/旗袍</a>
+											<a href="list.html">女士皮衣</a>
+											<a href="list.html">皮草</a>
+											<a href="list.html">女士牛仔服</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>靠椅</h5>
+										<p>
+											<a href="list.html">单鞋</a>
+											<a href="list.html">休闲鞋</a>
+											<a href="list.html">靴子</a>
+											<a href="list.html">雪地靴</a>
+											<a href="list.html">居家鞋/室内拖鞋</a>
+											<a href="list.html">凉鞋</a>
+											<a href="list.html">抹胸</a>
+											<a href="list.html">运动鞋</a>
+											<a href="list.html">360跑步鞋</a>
+											<a href="list.html">特步</a>
+											<a href="list.html">贵人鸟</a>
+											<a href="list.html">耐克</a>
+											<a href="list.html">阿迪达斯</a>
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="log.html" class="contegory_menus_a">日用厨具/收纳/宠物</a>
+								<div class="contegory_menus_tjdh">
+									<div class="tags_bd">
+										<h5>日用厨具</h5>
+										<p>
+											<a href="list.html">连衣裙</a>
+											<a href="list.html">半身裙</a>
+											<a href="list.html">女士衬衫</a>
+											<a href="list.html">女士T恤</a>
+											<a href="list.html">雪纺衫</a>
+											<a href="list.html">女士西服</a>
+											<a href="list.html">女士套装</a>
+											<a href="list.html">女士马甲</a>
+											<a href="list.html">打底裤</a>
+											<a href="list.html">女士休闲裤</a>
+											<a href="list.html">女士牛仔裤</a>
+											<a href="list.html">女士羽绒服</a>
+											<a href="list.html">女士大衣</a>
+											<a href="list.html">女士棉衣</a>
+											<a href="list.html">裙装</a>
+											<a href="list.html">女士针织/毛衣</a>
+											<a href="list.html">女士卫衣/帽衫</a>
+											<a href="list.html">女士风衣</a>
+											<a href="list.html">婚纱/礼服/旗袍</a>
+											<a href="list.html">女士皮衣</a>
+											<a href="list.html">皮草</a>
+											<a href="list.html">女士牛仔服</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>收纳</h5>
+										<p>
+											<a href="list.html">男士T恤</a>
+											<a href="list.html">男士衬衫</a>
+											<a href="list.html">男士休闲裤</a>
+											<a href="list.html">男士牛仔裤</a>
+											<a href="list.html">男士POLO衫</a>
+											<a href="list.html">男士西服</a>
+											<a href="list.html">男士夹克</a>
+											<a href="list.html">男士风衣</a>
+											<a href="list.html">男士针织/毛衣</a>
+											<a href="list.html">男士卫衣/帽衫</a>
+											<a href="list.html">男士皮衣</a>
+											<a href="list.html">男士套装</a>
+											<a href="list.html">男士牛仔服</a>
+											<a href="list.html">男士马甲</a>
+											<a href="list.html">男士西裤</a>
+											<a href="list.html">男士大衣</a>
+											<a href="list.html">男士棉衣</a>
+											<a href="list.html">男士羽绒服</a>
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="log.html" class="contegory_menus_a">母婴/玩具/童装</a>
+								<div class="contegory_menus_tjdh">
+									<div class="tags_bd">
+										<h5>母婴</h5>
+										<p>
+											<a href="list.html">单鞋</a>
+											<a href="list.html">休闲鞋</a>
+											<a href="list.html">靴子</a>
+											<a href="list.html">雪地靴</a>
+											<a href="list.html">居家鞋/室内拖鞋</a>
+											<a href="list.html">凉鞋</a>
+											<a href="list.html">抹胸</a>
+											<a href="list.html">运动鞋</a>
+											<a href="list.html">360跑步鞋</a>
+											<a href="list.html">特步</a>
+											<a href="list.html">贵人鸟</a>
+											<a href="list.html">耐克</a>
+											<a href="list.html">阿迪达斯</a>
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="log.html" class="contegory_menus_a">食品/饮料/酒类/生鲜</a>
+								<div class="contegory_menus_tjdh">
+									<div class="tags_bd">
+										<h5>食品</h5>
+										<p>
+											<a href="list.html">连衣裙</a>
+											<a href="list.html">半身裙</a>
+											<a href="list.html">女士衬衫</a>
+											<a href="list.html">女士T恤</a>
+											<a href="list.html">雪纺衫</a>
+											<a href="list.html">女士西服</a>
+											<a href="list.html">女士套装</a>
+											<a href="list.html">女士马甲</a>
+											<a href="list.html">打底裤</a>
+											<a href="list.html">女士休闲裤</a>
+											<a href="list.html">女士牛仔裤</a>
+											<a href="list.html">女士羽绒服</a>
+											<a href="list.html">女士大衣</a>
+											<a href="list.html">女士棉衣</a>
+											<a href="list.html">裙装</a>
+											<a href="list.html">女士针织/毛衣</a>
+											<a href="list.html">女士卫衣/帽衫</a>
+											<a href="list.html">女士风衣</a>
+											<a href="list.html">婚纱/礼服/旗袍</a>
+											<a href="list.html">女士皮衣</a>
+											<a href="list.html">皮草</a>
+											<a href="list.html">女士牛仔服</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>饮料</h5>
+										<p>
+											<a href="list.html">男士T恤</a>
+											<a href="list.html">男士衬衫</a>
+											<a href="list.html">男士休闲裤</a>
+											<a href="list.html">男士牛仔裤</a>
+											<a href="list.html">男士POLO衫</a>
+											<a href="list.html">男士西服</a>
+											<a href="list.html">男士夹克</a>
+											<a href="list.html">男士风衣</a>
+											<a href="list.html">男士针织/毛衣</a>
+											<a href="list.html">男士卫衣/帽衫</a>
+											<a href="list.html">男士皮衣</a>
+											<a href="list.html">男士套装</a>
+											<a href="list.html">男士牛仔服</a>
+											<a href="list.html">男士马甲</a>
+											<a href="list.html">男士西裤</a>
+											<a href="list.html">男士大衣</a>
+											<a href="list.html">男士棉衣</a>
+											<a href="list.html">男士羽绒服</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>酒类</h5>
+										<p>
+											<a href="list.html">保暖衣裤</a>
+											<a href="list.html">睡衣/家居服</a>
+											<a href="list.html">文胸</a>
+											<a href="list.html">内裤</a>
+											<a href="list.html">塑身美体</a>
+											<a href="list.html">吊带/背心</a>
+											<a href="list.html">抹胸</a>
+											<a href="list.html">男袜/女袜</a>
+											<a href="list.html">连体袜/丝袜</a>
+											<a href="list.html">打底裤袜</a>
+											<a href="list.html">秋衣秋裤</a>
+											<a href="list.html">内衣配件</a>
+											<a href="list.html">情趣内衣</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>电脑</h5>
+										<p>
+											<a href="list.html">单鞋</a>
+											<a href="list.html">休闲鞋</a>
+											<a href="list.html">靴子</a>
+											<a href="list.html">雪地靴</a>
+											<a href="list.html">居家鞋/室内拖鞋</a>
+											<a href="list.html">凉鞋</a>
+											<a href="list.html">抹胸</a>
+											<a href="list.html">运动鞋</a>
+											<a href="list.html">360跑步鞋</a>
+											<a href="list.html">特步</a>
+											<a href="list.html">贵人鸟</a>
+											<a href="list.html">耐克</a>
+											<a href="list.html">阿迪达斯</a>
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="log.html" class="contegory_menus_a">手机/数码/电脑办公</a>
+								<div class="contegory_menus_tjdh">
+									<div class="tags_bd">
+										<h5>苹果</h5>
+										<p>
+											<a href="list.html">连衣裙</a>
+											<a href="list.html">半身裙</a>
+											<a href="list.html">女士衬衫</a>
+											<a href="list.html">女士T恤</a>
+											<a href="list.html">雪纺衫</a>
+											<a href="list.html">女士西服</a>
+											<a href="list.html">女士套装</a>
+											<a href="list.html">女士马甲</a>
+											<a href="list.html">打底裤</a>
+											<a href="list.html">女士休闲裤</a>
+											<a href="list.html">女士牛仔裤</a>
+											<a href="list.html">女士羽绒服</a>
+											<a href="list.html">女士大衣</a>
+											<a href="list.html">女士棉衣</a>
+											<a href="list.html">裙装</a>
+											<a href="list.html">女士针织/毛衣</a>
+											<a href="list.html">女士卫衣/帽衫</a>
+											<a href="list.html">女士风衣</a>
+											<a href="list.html">婚纱/礼服/旗袍</a>
+											<a href="list.html">女士皮衣</a>
+											<a href="list.html">皮草</a>
+											<a href="list.html">女士牛仔服</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>手机</h5>
+										<p>
+											<a href="list.html">单鞋</a>
+											<a href="list.html">休闲鞋</a>
+											<a href="list.html">靴子</a>
+											<a href="list.html">雪地靴</a>
+											<a href="list.html">居家鞋/室内拖鞋</a>
+											<a href="list.html">凉鞋</a>
+											<a href="list.html">抹胸</a>
+											<a href="list.html">运动鞋</a>
+											<a href="list.html">360跑步鞋</a>
+											<a href="list.html">特步</a>
+											<a href="list.html">贵人鸟</a>
+											<a href="list.html">耐克</a>
+											<a href="list.html">阿迪达斯</a>
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="log.html" class="contegory_menus_a">大家电/小家电/生活电器</a>
+								<div class="contegory_menus_tjdh">
+									<div class="tags_bd">
+										<h5>彩电</h5>
+										<p>
+											<a href="list.html">连衣裙</a>
+											<a href="list.html">半身裙</a>
+											<a href="list.html">女士衬衫</a>
+											<a href="list.html">女士T恤</a>
+											<a href="list.html">雪纺衫</a>
+											<a href="list.html">女士西服</a>
+											<a href="list.html">女士套装</a>
+											<a href="list.html">女士马甲</a>
+											<a href="list.html">打底裤</a>
+											<a href="list.html">女士休闲裤</a>
+											<a href="list.html">女士牛仔裤</a>
+											<a href="list.html">女士羽绒服</a>
+											<a href="list.html">女士大衣</a>
+											<a href="list.html">女士棉衣</a>
+											<a href="list.html">裙装</a>
+											<a href="list.html">女士针织/毛衣</a>
+											<a href="list.html">女士卫衣/帽衫</a>
+											<a href="list.html">女士风衣</a>
+											<a href="list.html">婚纱/礼服/旗袍</a>
+											<a href="list.html">女士皮衣</a>
+											<a href="list.html">皮草</a>
+											<a href="list.html">女士牛仔服</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>电视剧</h5>
+										<p>
+											<a href="list.html">男士T恤</a>
+											<a href="list.html">男士衬衫</a>
+											<a href="list.html">男士休闲裤</a>
+											<a href="list.html">男士牛仔裤</a>
+											<a href="list.html">男士POLO衫</a>
+											<a href="list.html">男士西服</a>
+											<a href="list.html">男士夹克</a>
+											<a href="list.html">男士风衣</a>
+											<a href="list.html">男士针织/毛衣</a>
+											<a href="list.html">男士卫衣/帽衫</a>
+											<a href="list.html">男士皮衣</a>
+											<a href="list.html">男士套装</a>
+											<a href="list.html">男士牛仔服</a>
+											<a href="list.html">男士马甲</a>
+											<a href="list.html">男士西裤</a>
+											<a href="list.html">男士大衣</a>
+											<a href="list.html">男士棉衣</a>
+											<a href="list.html">男士羽绒服</a>
+										</p>
+									</div>
+									<div class="tags_bd">
+										<h5>冰箱</h5>
+										<p>
+											<a href="list.html">保暖衣裤</a>
+											<a href="list.html">睡衣/家居服</a>
+											<a href="list.html">文胸</a>
+											<a href="list.html">内裤</a>
+											<a href="list.html">塑身美体</a>
+											<a href="list.html">吊带/背心</a>
+											<a href="list.html">抹胸</a>
+											<a href="list.html">男袜/女袜</a>
+											<a href="list.html">连体袜/丝袜</a>
+											<a href="list.html">打底裤袜</a>
+											<a href="list.html">秋衣秋裤</a>
+											<a href="list.html">内衣配件</a>
+											<a href="list.html">情趣内衣</a>
+										</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<ul class="lists_left">
+					<a href="index.html">
+						<li class="lists_left_li">首页</li>
+					</a>
+					<li>海外精品</li>
+					<li>星范儿</li>
+					<li>星特惠</li>
+					<li>星粉专区</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="showcase clearfix">
+			<div class="main_box_title container">
+				<ul>
+					<li>如此生活 ></li>
+					<li>嘉思食品旗舰店 ></li>
+					<li>海南1号生榨椰子汁1kg</li>
+				</ul>
+			</div>
+			<div class="main_box_min container">
+				<div class="dateil_top">
+					<div class="abums">
+						<img src="" id="Bimg" />
+						<div class="abums_1">
+							<ul>
+								<li><img src="" id="bimg_1" /></li>
+								<li><img src="" id="bimg_2" /></li>
+								<li><img src="" id="bimg_3" /></li>
+								<li><img src="" id="bimg_4" /></li>
+								<li><img src="" id="bimg_5" /></li>
+							</ul>
+						</div>
+						<p>商品编号55058</p>
+					</div>
+					<div class="info">
+						<h1 class="title">
+							<b id="b"></b><br />
+							<label id="la"></label>
+						</h1>
+						<div class="info_count">
+							<p class="price">
+								<em>￥</em>
+								<span style="color: red; font-size:30px;" id="jq"></span>
+								<span style="color: red;">元 +</span>
+								<span style="color: red; font-size: 15px;">0</span>
+								<span class="laber">如此生活价</span><br/>
+								<i style="font-size: 14px;">(参考价为：)</i><span></span><br />
+								<span class="s_1">享受的活动：</span>
+								<span class="s_2">
+									<i>[促销售价]</i>
+									<sapn style="font-size: 13px;">活动商品促销售价</span>
+								</span><br />
+								<span class="s_3">
+									[促销售价]<i>活动商品促销售价</i>
+								</span>
+							</p>
+							<div class="actnotic">
+								<div class="wx_img">
+									<img src="../images/lby_wx.jpg" />
+								</div>
+								<p>
+									移动端扫购更便捷
+								</p>
+							</div>
+						</div>
+						<div class="product_size">
+							<ul>
+								<li><span>评价</span><span class="s_1"><img src="../images/lby_xx.png" /></span></li>
+								<li><span>服务:</span><span class="s_1">由"嘉思食品旗舰店"直接销售和发货，并提供售后服务</span></li>
+								<li><span>送至:</span><input type="text" /></li>
+								<li><span>品牌:</span><span id="pp" /></span>
+								</li>
+								<li><span>数量:</span><input type="number" /></li>
+								<li>
+									<span><img src="../images/lby_gm.png" /></span>
+									<a href="car.html"><span id="toCar"><img src="../images/lby_jru.png" /></span></a>
+								</li>
+							</ul>
+
+						</div>
+
+					</div>
+				</div>
+				<div class="storeinfo">
+					<img src="../images/xqy_xxpj.png" />
+				</div>
+			</div>
+			<div class="main_box_table container">
+				<div class="table_qx_1">
+					<div class="xqy_ls">
+						<img src="" id="img_1" />
+						<span id="sp_1"></span>
+						<span id="sp_2"></span>
+					</div>
+					<div class="table_qx_1_img"><img src="../images/lby_dh.png" /></div>
+				</div>
+				<div class="table_qx_2">
+					<ul>
+						<li class="fist_li">已选择<span style="color: #F6AB00;">1</span>个产品</li>
+						<li><span style="color: red ;">套餐价:</span> <span style="color: red ;">¥7.90 </span></li>
+						<li><span>参考价:</span> <span class="s_3">¥15.10</span></li>
+						<li><img src="../images/lby_jru.png" /></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="main_box_xq container">
+				<div class="xqy_xd"><img src="../images/xqy_xd.png" /></div>
+				<div class="table_qx_1_1">
+					<ul class="ul_1">
+						<li>商品名称：</li>
+						<li>品牌：</li>
+						<li>特别说明：</li>
+						<li>服务承诺：</li>
+						<li>权利声明：</li>
+					</ul>
+					<ul class="ul_2">
+						<li><span></span></li>
+						<li><span></span></li>
+						<li>因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件， 本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。网站商 品的功能参数仅供参考，请以实物为准，我司只能确保网站经营商品均为原厂 正品行货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新， 请大家谅解！</li>
+						<li>如此生活向您保证销售商品均为正品行货并开具正规发票。凭 如此生 活发票，所有商品均可以享受生产厂家的全国联保服务或指定服务商联保服务， 如此生活将严格按照国家三包政策以及本《退换货政策》，对所售商品履行换 货和退货的义务。</li>
+						<li>如此生活上的所有商品信息、客户评价、商品咨询、网友讨论等内容， 是如此生活重要的经营资源，未经许可，禁止非法转载使用。注：本站商 品信息均来自于合作方，其真实性、准确性和合法性由信息拥有者（合作 方）负责。本站不提供任何保证，并不承担任何法律责任</li>
+					</ul>
+
+				</div>
+				<div class="table_qx_1_2">
+				</div>
+			</div>
+		</div>
+		<!--尾部开始的位置-->
+		<div class="footerdiv">
+			<div class="footer_wrap">
+				<div class="footer_nav">
+					<ul>
+						<li style="width: 285px;">
+							<dl class="footer_nav_first">
+								<dt>新手指南</dt>
+								<dd>
+									<a href="#">免费注册</a>
+								</dd>
+								<dd>
+									<a href="#">搜索商品</a>
+								</dd>
+								<dd>
+									<a href="#">购买评论</a>
+								</dd>
+								<dd>
+									<a href="#">评论晒单</a>
+								</dd>
+							</dl>
+						</li>
+						<li style="width: 182px;">
+							<dl>
+								<dt>配送方式</dt>
+								<dd>
+									<a href="#">配送方式</a>
+								</dd>
+								<dd>
+									<a href="#">配送时间</a>
+								</dd>
+							</dl>
+						</li>
+						<li style="width: 180px;">
+							<dl>
+								<dt>支付方式</dt>
+								<dd>
+									<a href="#">支付方式</a>
+								</dd>
+								<dd>
+									<a href="#">银行卡支付</a>
+								</dd>
+							</dl>
+						</li>
+						<li style="width: 165px;">
+							<dl>
+								<dt>售后服务</dt>
+								<dd>
+									<a href="#">守候政策</a>
+								</dd>
+								<dd>
+									<a href="#">退款说明</a>
+								</dd>
+								<dd>
+									<a href="#">取消订单</a>
+								</dd>
+							</dl>
+						</li>
+						<li style="width: 193px;">
+							<dl>
+								<dt>招商合作</dt>
+							</dl>
+						</li>
+						<li style="width: 160px;">
+							<dl>
+								<dt>购物指南</dt>
+								<dd>
+									<a href="#">星币说明</a>
+								</dd>
+								<dd>
+									<a href="#">交易条款</a>
+								</dd>
+								<dd>
+									<a href="#">购物说明</a>
+								</dd>
+								<dd>
+									<a href="#">注册流程</a>
+								</dd>
+								<dd>
+									<a href="#">常见问题</a>
+								</dd>
+							</dl>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="footer_s">
+				<div class="foot-er">
+					<a class="s1" title="020双线开放">020双线开放</a>
+					<a class="s2" title="免年费返佣金">免年费返佣金</a>
+					<a class="s3" title="仓储物流服务">仓储物流服务</a>
+				</div>
+			</div>
+			<div class="footer clearfix">
+				<p>
+					<a href="#">关于我们</a>
+					<a href="#">联系我们</a>
+					<a href="#">品牌介绍</a>
+					<a href="#">商家如驻</a>
+					<a href="#">友情链接</a>
+					<a href="#" class="la">法律声明</a>
+				</p>
+				<p style="font-family: verdana;">
+					@2014-2015
+					<a href="#" class="p_la">如此生活</a>
+					版权所有 卢ICP备11038000号-2
+				</p>
+			</div>
+		</div>
+	</body>
+
+</html>
